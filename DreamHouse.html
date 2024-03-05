@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream House Company Careers</title>
+    <style>
+        body {
+            background-color: #BAD4D4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #gallery {
+            width: 100%;
+            overflow: hidden;
+        }
+        #slider {
+            display: flex;
+            animation: slide 15s infinite;
+        }
+        #slider img {
+            width: 100%;
+            height: auto;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-100%); }
+            50% { transform: translateX(-200%); }
+            75% { transform: translateX(-300%); }
+            100% { transform: translateX(0); }
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-top: 50px;
+        }
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+            100% {
+                opacity: 0;
+            }
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+        form {
+            margin-top: 30px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #004953;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="C:\Users\Eshah\Pictures\Dream house Logo........png" alt="Dream House Company Logo" width="200">
+        <h1 class="blink">We Are Hiring!</h1>
+        <p>Apply now to join our team of talented interior designers.</p>
+        <h2 style="text-align:left;">About us:</h2>
+        <h3 style="text-align:center;">Dream House Company</h3>
+<p style="text-align:justify;">At Dream House Company, we believe that architecture is more than just constructing buildings; it's about crafting dreams into reality. Established in 2001 by visionary architects, our firm has been at the forefront of innovative design solutions, creating iconic structures that inspire awe and admiration.</p>
+<p style="text-align:justify;">Dream House Company offers a comprehensive range of architectural services tailored to meet the diverse needs of our clients like Architectural Design, Interior Design, Sustainable Design and Project Management</p>
+<h3>Our Portfolio</h3>
+<p style="text-align:justify;">Our extensive portfolio showcases a diverse range of projects spanning residential, commercial, institutional, and recreational sectors. From iconic skyscrapers to intimate residential retreats, each project exemplifies our unwavering commitment to innovation and excellence.</p>
+<div id="gallery">
+        <div id="slider">
+            <img src="C:\Users\Eshah\Downloads\san-pietro-villa-albania-maden-group___media_library_original_940_529.jpg" alt="Image 1">
+            <img src="C:\Users\Eshah\Downloads\01-hybrid-villas-izmir-pinart-architecture___media_library_original_940_529.jpg" alt="Image 2">
+            <img src="C:\Users\Eshah\Downloads\family-villa-klanovice-kurz-architects___media_library_original_940_529.jpg" alt="Image 3">
+            <img src="C:\Users\Eshah\Downloads\room-partitions-1024x683.jpg" alt="Image 4">
+            <img src=""C:\Users\Eshah\Downloads\center-table-1024x683.jpg"" alt="Image 5">
+            <img src=""C:\Users\Eshah\Downloads\samon-villa-abbasabad-nap-studio___media_library_original_940_529.jpg"" alt="Image 6">
+        </div>
+<h1 class="blink">Join Our Team!</h3>
+
+<p style="text-align:justify;"> At Dream House Company, we are always on the lookout for talented individuals who share our passion for design and innovation. If you are driven by creativity and thrive in a collaborative environment, we invite you to explore career opportunities with us and be a part of shaping the future of architecture.</p>
+        <form>
+            <label style="text-align:left;" for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label style="text-align:left;" for="phone">Phone No.:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label style="text-align:left;" for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label style="text-align:left;" for="interview-date">Schedule Interview Date:</label>
+            <select id="interview-date" name="interview-date" required>
+                <option value="" disabled selected>Select Month</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+            </select>
+            <input type="submit" value="Apply Now!">
+        </form>
+        <h3 style="text-align:left;">Job Requirements:</h3>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+        </ul>
+        <img src="interior_design_image.jpg" alt="Interior Design Example" width="400">
+    </div>
+</body>
+</html>
